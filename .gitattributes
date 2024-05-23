@@ -2,3 +2,5 @@
 * text=auto
 docs/* linguist-documentation
 *.html linguist-vendored
+*.py linguist-language=Python
+
