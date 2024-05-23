@@ -39,7 +39,7 @@ A collection of scripts to automate daily tasks.
 Implementations of common data structures and algorithms.
 
 ### Data Structures
-- [Linked List](link/to/LinkedList.py)
+- [Linked List](Python/Data_Structures/LinkedList.py)
 
 
 ### Algorithms
