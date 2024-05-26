@@ -42,8 +42,8 @@ class HashTable:
                 self.insert(key, value)
 
     def print_table(self):
-        for i, bucket in enumerate(self.table):
-            print(f"Bucket {i}: {bucket}")
+        for i, index in enumerate(self.table):
+            print(f"index {i}: {index}")
 
 
 hash_table = HashTable()
@@ -52,5 +52,5 @@ hash_table.insert("key2", "value2")
 print(hash_table.search("key1"))
 hash_table.print_table()
 hash_table.delete("key1")
-print(hash_table.search("key1"))
+print(hash_table.search("key1")) #returns none
 hash_table.print_table()
