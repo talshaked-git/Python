@@ -129,6 +129,9 @@ class LinkedList:
             position += 1
         
         return -1
+    
+    def sortLL(self):
+        pass
 
 
 # Creating a linked list

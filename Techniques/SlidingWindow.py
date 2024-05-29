@@ -1,5 +1,5 @@
 
-# Find the max sum subarray of a fixed size K
+# Find the max sum subarray of a fixed size K (fixed size window)
 # Example input:
 # [ 4, 2, 1 , 7 , 8, 1 , 2 ,8, 1 ,0], k = 3
 INT_MAX = 2**31 - 1
@@ -24,7 +24,7 @@ k = 2
 print(MaxSumSubArray(arr, k))
 
 
-# Find the smallest subarray with given sum
+# Find the smallest subarray with given sum (dynamic window)
 # Example input:
 # [4, 2, 2, 7, 1, 1, 2, 2, 1, 0], sum = 8
 
