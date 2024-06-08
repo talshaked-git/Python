@@ -41,3 +41,26 @@ def isNStraightHand(hand, groupSize):
 hand = [1,2,3,6,2,3,4,7,8]
 groupSize = 3
 print(isNStraightHand(hand,groupSize))
+
+
+def differentApproach(hand,groupSize):
+    if len(hand) % groupSize != 0:
+        return False
+
+    hand.sort()
+    n=len(hand)
+    i = 0
+    while(i<n):
+        first = hand[i]
+        group = range(first,first+groupSize)
+        for num in group:
+            if num not in hand:
+                return False
+            else:
+                hand.remove(num)
+        n=len(hand)
+    return True
+
+hand = [1,2,3,6,2,3,4,7,8]
+groupSize = 3
+print(differentApproach(hand,groupSize))
