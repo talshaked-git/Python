@@ -26,10 +26,11 @@ pip install selenium pandas
 
 Example
 If you input the following:
-
+```
 Search Term: 3060Ti
 Min Price: 1300
 Max Price: 3200
+```
 The script will search for 3060Ti on eBay, filter results where the price is between 1300 and 3200, and save the results in a file named ebay_3060Ti_filtered.csv.
 
 
