@@ -22,6 +22,7 @@ You can install Selenium and pandas using pip:
 
 ```bash
 pip install selenium pandas
+```
 
 Example
 If you input the following:
