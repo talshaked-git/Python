@@ -1,5 +1,5 @@
 # Python
-Deep learning Python, Data Structures and Algorithms
+Deep learning Python, Data Structures and Algorithms, Automation using Selenium and Playwright.
 # Python Repository
 
 A comprehensive collection of Python projects, including solutions to LeetCode problems, automation scripts, and data structures and algorithms implementations.
@@ -17,7 +17,7 @@ A comprehensive collection of Python projects, including solutions to LeetCode p
 ## LeetCode Solutions
 
 This section contains solutions to various LeetCode problems.
-
+For example:
 - **Array Problems**
   - Two Sum
     
@@ -30,9 +30,10 @@ This section contains solutions to various LeetCode problems.
 
 A collection of scripts to automate daily tasks.
 
-- Cookie Clicker - Open the cookie clicker game website and let the script do everything for you, including buying upgrades.
-- Speed Test - Open the speed test website and start the speed test.
-- Google search - Open google and search for any given input.
+- Cookie Clicker - Open the Cookie Clicker game website and let the script do everything for you, including buying upgrades.
+- Speed Test - Open the SpeedTest website and start the speed test.
+- Google search - Open Google and search for any given input.
+- eBay Tracker - Use the program's GUI to enter a search term and price range, the program will get all matching results and save it under search_term.csv for easier data management.
 
 ## Data Structures and Algorithms
 
@@ -44,7 +45,7 @@ Implementations of common data structures and algorithms.
 
 ### Algorithms
 
-TBA
+WiP
 
 ## Installation
 
